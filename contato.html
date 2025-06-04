@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ripe Origins - Contato</title>
+    <link
+      rel="shortcut icon"
+      href="conteudo/logo/Logo Vetorizado.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="contato.html" class="logo">
+          <img
+            src="conteudo/logo/Logo Vetorizado.svg"
+            alt="Ripe Origins Logo"
+          />
+        </a>
+
+        <!-- Toggle para menu mobile -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Menu de navegação -->
+        <nav class="nav-links">
+          <a href="index.html">Início</a>
+          <a href="cardapio.html">Cardápio</a>
+          <a href="sobre.html">Sobre Nós</a>
+          <a href="contato.html" class="active">Contato</a>
+          <a href="termos.html">Termos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Contato</h2>
+        <p class="intro-text container">
+          Entre em contato conosco para dúvidas, sugestões ou reservas.
+        </p>
+        <form
+          class="container"
+          style="max-width: 600px; margin: 2rem auto"
+          action="#"
+          method="post"
+        >
+          <input type="text" name="nome" placeholder="Seu nome" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <textarea
+            name="mensagem"
+            rows="6"
+            placeholder="Sua mensagem"
+            required
+          ></textarea>
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Unidades Ripe Origins</h3>
+          <ul>
+            <li>Sede - Avenida Paulista, 1234 - SP</li>
+            <li>Rua Augusta, 567 - SP</li>
+            <li>Rua XV de Novembro, 432 - Campinas</li>
+            <li>Rua Barata Ribeiro, 678 - RJ (em breve)</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <form>
+            <input
+              type="email"
+              placeholder="Seu e-mail"
+              required
+              style="
+                width: 100%;
+                padding: 0.5rem;
+                border-radius: 8px;
+                border: none;
+              "
+            />
+            <button
+              type="submit"
+              style="
+                margin-top: 0.5rem;
+                background-color: var(--accent-yellow);
+                color: var(--primary-blue);
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 50px;
+                font-weight: 700;
+                cursor: pointer;
+              "
+            >
+              Cadastrar
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

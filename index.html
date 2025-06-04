@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ripe Origins - Home</title>
+    <link
+      rel="shortcut icon"
+      href="conteudo/logo/Logo Vetorizado.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img
+            src="conteudo/logo/Logo Vetorizado.svg"
+            alt="Ripe Origins Logo"
+          />
+        </a>
+
+        <!-- Toggle para menu mobile -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Menu de navegação -->
+        <nav class="nav-links">
+          <a href="index.html" class="active">Início</a>
+          <a href="cardapio.html">Cardápio</a>
+          <a href="sobre.html">Sobre Nós</a>
+          <a href="contato.html">Contato</a>
+          <a href="termos.html">Termos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content container">
+          <h1>Onde cada mordida é uma fiesta!</h1>
+          <p>Descubra o sabor único do Quiche Loco, nossa receita exclusiva.</p>
+          <a href="cardapio.html" class="btn-primary">Veja nosso Cardápio</a>
+        </div>
+      </section>
+
+      <!-- Introdução -->
+      <section>
+        <h2>Bem-vindo à Ripe Origins</h2>
+        <p class="intro-text">
+          A Ripe Origins é uma franquia de restaurantes que une o melhor da
+          culinária mexicana com modernidade e sabor. Venha viver uma
+          experiência gastronômica inesquecível!
+        </p>
+      </section>
+
+      <!-- Quem Somos -->
+      <section class="alt-bg">
+        <h2>Quem Somos</h2>
+        <p class="intro-text">
+          Nascemos da paixão pela gastronomia, focados em oferecer pratos
+          exclusivos e de alta qualidade, servidos em um ambiente 5 estrelas.
+          Nosso compromisso é com o sabor, a sustentabilidade e você.
+        </p>
+        <div class="employee-container">
+          <div class="employee-profile">
+            <a href="sobre.html">
+              <img
+                src="conteudo/ceos/Sara Smith.jpg"
+                alt="Funcionário 5"
+                class="circle-image"
+              />
+            </a>
+            <p>Sara Smith: Fundadora e CEO</p>
+          </div>
+          <div class="employee-profile">
+            <a href="sobre.html">
+              <img
+                src="conteudo/ceos/João Domini.jpg"
+                alt="Funcionário 3"
+                class="circle-image"
+              />
+            </a>
+            <p>João Domini: Cofundador e COO</p>
+          </div>
+          <div class="employee-profile">
+            <a href="sobre.html">
+              <img
+                src="conteudo/ceos/Marcel Garrido.jpg"
+                alt="Funcionário 4"
+                class="circle-image"
+              />
+            </a>
+            <p>Marcel Garrido: Cofundador e CHRO</p>
+          </div>
+          <div class="employee-profile">
+            <a href="sobre.html">
+              <img
+                src="conteudo/ceos/Emily Lee.jpg"
+                alt="Funcionário 2"
+                class="circle-image"
+              />
+            </a>
+            <p>Emily Lee: Cofundadora e CMO</p>
+          </div>
+          <div class="employee-profile">
+            <a href="sobre.html">
+              <img
+                src="conteudo/ceos/David Brown.jpg"
+                alt="Funcionário 1"
+                class="circle-image"
+              />
+            </a>
+            <p>David Brown: Cofundador e CFO</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Vitrine de Produtos -->
+      <section>
+        <h2>Pratos em Destaque</h2>
+        <div class="products-grid container">
+          <div class="product-card">
+            <img
+              src="conteudo/img/Quiche loco.jpeg"
+              alt="Quiche Loco"
+            />
+            <div class="product-info">
+              <h3>Quiche Loco</h3>
+              <p>
+                Nosso prato exclusivo e carro-chefe, preparado com receita
+                secreta e sabor inesquecível.
+              </p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="conteudo/img/Tacos1.jpeg"
+              alt="Tacos"
+            />
+            <div class="product-info">
+              <h3>Tacos Tradicionais</h3>
+              <p>
+                Sabores autênticos e ingredientes frescos para uma experiência
+                verdadeira.
+              </p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="conteudo/img/Prato Especial.jpeg"
+              alt="Guacamole"
+            />
+            <div class="product-info">
+              <h3>Guacamole</h3>
+              <p>
+                Um clássico mexicano preparado com os ingredientes mais frescos
+                e saborosos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Fale Conosco -->
+      <section class="alt-bg">
+        <h2>Fale Conosco</h2>
+        <p class="intro-text">
+          Tem dúvidas, sugestões ou quer fazer uma reserva? Entre em contato
+          conosco!
+        </p>
+        <div class="container" style="max-width: 600px; margin: 2rem auto">
+          <form action="contato.html" method="get">
+            <input type="text" placeholder="Seu nome" required />
+            <input type="email" placeholder="Seu e-mail" required />
+            <textarea placeholder="Sua mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Unidades Ripe Origins</h3>
+          <ul>
+            <li>Sede - Avenida Paulista, 1234 - SP</li>
+            <li>Rua Augusta, 567 - SP</li>
+            <li>Rua XV de Novembro, 432 - Campinas</li>
+            <li>Rua Barata Ribeiro, 678 - RJ (em breve)</li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <form>
+            <input
+              type="email"
+              placeholder="Seu e-mail"
+              required
+              style="
+                width: 100%;
+                padding: 0.5rem;
+                border-radius: 8px;
+                border: none;
+              "
+            />
+            <button
+              type="submit"
+              style="
+                margin-top: 0.5rem;
+                background-color: var(--accent-yellow);
+                color: var(--primary-blue);
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 50px;
+                font-weight: 700;
+                cursor: pointer;
+              "
+            >
+              Cadastrar
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
